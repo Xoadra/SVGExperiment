@@ -11,35 +11,50 @@
     height: 8rem;
 }
 
-.app-logo {
-    pointer-events: none;
-    height: 5rem;
-}
-
-.app-link {
+.app-header > a {
     display: flex;
     color: #61dafb;
     align-items: center;
-    text-decoration: none;
+}
+
+.app-logo {
+    pointer-events: none;
+    height: 5rem;
 }
 
 .app-navigation {
     display: flex;
     background-color: #3b3b4a;
     color: #4e4e67;
+    align-items: center;
+    justify-content: center;
     height: 4rem;
+}
+
+.app-navigation > a {
+    color: #d0f5ff;
+    font-size: calc(5px + 2vmin);
+    font-weight: bold;
+    margin: 0 4rem;
 }
 
 .app-section {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
     min-height: 50vmin;
+}
+
+.app-section > svg {
+    /* background-color: #4e4e67; */
+    height: 75vmin;
 }
 
 .app-section > p {
     color: white;
     font-size: calc(10px + 1vmin);
+    user-select: none;
 }
 
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Link } from "react-router-dom";
 
+import Face from './pages/Face';
 import logo from './logo.svg';
 import './App.css';
 
@@ -10,18 +11,22 @@ const App = () => {
         <div className="app">
             <BrowserRouter>
                 <header className="app-header">
-                    <Link to="/" className="app-link">
+                    <Link to="/">
                         <img src={logo} className="app-logo" alt="logo"/>
                         <h1>SVG Experiments</h1>
                         <img src={logo} className="app-logo" alt="logo"/>
                     </Link>
                 </header>
-                <nav className="app-navigation"/>
-                <Route path="/">
+                <nav className="app-navigation">
+                    <Link to="/">Home</Link>
+                    <Link to="/face">Face</Link>
+                </nav>
+                <Route path="/" exact>
                     <section className="app-section">
                         <p>Select an SVG illustration to view.</p>
                     </section>
                 </Route>
+                <Route path="/face" component={Face}/>
             </BrowserRouter>
         </div>
     );
