@@ -1,0 +1,18 @@
+.layout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    min-height: 50vmin;
+}
+
+.layout > svg {
+    /* background-color: #4e4e67; */
+    height: 75vmin;
+}
+
+.layout > p {
+    color: white;
+    font-size: calc(10px + 1vmin);
+    user-select: none;
+}

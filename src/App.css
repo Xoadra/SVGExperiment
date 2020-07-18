@@ -38,25 +38,6 @@
     margin: 0 4rem;
 }
 
-.app-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    min-height: 50vmin;
-}
-
-.app-section > svg {
-    /* background-color: #4e4e67; */
-    height: 75vmin;
-}
-
-.app-section > p {
-    color: white;
-    font-size: calc(10px + 1vmin);
-    user-select: none;
-}
-
 
 @media (prefers-reduced-motion: no-preference) {
     .app-logo {

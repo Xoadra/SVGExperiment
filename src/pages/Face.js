@@ -1,9 +1,11 @@
 import React from 'react';
 
+import Layout from '../components/Layout';
+
 
 const Face = () => {
     return (
-        <section className="app-section">
+        <Layout>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
                 <g className="face-head">
                     <ellipse fill="#ffcc99" cx="50" cy="50" rx="40" ry="40"/>
@@ -33,7 +35,7 @@ const Face = () => {
                     </g>
                 </g>
             </svg>
-        </section>
+        </Layout>
     );
 };
 
