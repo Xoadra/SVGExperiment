@@ -2,24 +2,30 @@
     text-align: center;
 }
 
-.app-logo {
-    pointer-events: none;
-    height: 40vmin;
-}
-
 .app-header {
     display: flex;
     background-color: #282c34;
-    color: white;
+    color: #61dafb;
     font-size: calc(10px + 2vmin);
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    height: 8rem;
+}
+
+.app-logo {
+    pointer-events: none;
+    height: 5rem;
 }
 
 .app-link {
     color: #61dafb;
+}
+
+.app-navigation {
+    display: flex;
+    background-color: #3b3b4a;
+    color: #4e4e67;
+    height: 4rem;
 }
 
 
