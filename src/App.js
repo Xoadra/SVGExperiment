@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Line from './pages/Line';
 import Rectangle from './pages/Rectangle';
 import Circle from './pages/Circle';
+import Ellipse from './pages/Ellipse';
 import Face from './pages/Face';
 import logo from './logo.svg';
 import './App.css';
@@ -24,12 +25,14 @@ const App = () => (
             <Link to="/line">Line</Link>
             <Link to="/rectangle">Rectangle</Link>
             <Link to="/circle">Circle</Link>
+            <Link to="/ellipse">Ellipse</Link>
             <Link to="/face">Face</Link>
         </nav>
         <Route exact path="/" component={Home}/>
         <Route path="/line" component={Line}/>
         <Route path="/rectangle" component={Rectangle}/>
         <Route path="/circle" component={Circle}/>
+        <Route path="/ellipse" component={Ellipse}/>
         <Route path="/face" component={Face}/>
     </BrowserRouter>
 );
