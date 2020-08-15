@@ -22,7 +22,6 @@ const App = () => (
             </Link>
         </header>
         <nav className="app-navigation">
-            <Link to="/">Home</Link>
             <Link to="/line">Line</Link>
             <Link to="/rectangle">Rectangle</Link>
             <Link to="/circle">Circle</Link>
