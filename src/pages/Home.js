@@ -1,16 +1,17 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-import Line from '../pages/Line';
-import Rectangle from '../pages/Rectangle';
-import Circle from '../pages/Circle';
-import Ellipse from '../pages/Ellipse';
-import Polyline from '../pages/Polyline';
-import Face from '../pages/Face';
+import Line from './Line';
+import Rectangle from './Rectangle';
+import Circle from './Circle';
+import Ellipse from './Ellipse';
+import Polyline from './Polyline';
+import Polygon from './Polygon';
+import Face from './Face';
 
 
 const Home = () => {
-    const examples = [Line, Rectangle, Circle, Ellipse, Polyline, Face];
+    const examples = [Line, Rectangle, Circle, Ellipse, Polyline, Polygon, Face];
     return (
         <Layout>
             {examples[Math.floor(Math.random() * examples.length - 0)]()}

@@ -29,7 +29,7 @@
 
 .app-navigation > a {
     color: #d0f5ff;
-    font-size: calc(2.5px + 2vmin);
+    font-size: calc(2px + 2vmin);
     font-weight: bold;
     margin: 0 2rem;
 }

@@ -7,6 +7,7 @@ import Rectangle from './pages/Rectangle';
 import Circle from './pages/Circle';
 import Ellipse from './pages/Ellipse';
 import Polyline from './pages/Polyline';
+import Polygon from './pages/Polygon';
 import Face from './pages/Face';
 import logo from './logo.svg';
 import './App.css';
@@ -27,6 +28,7 @@ const App = () => (
             <Link to="/circle">Circle</Link>
             <Link to="/ellipse">Ellipse</Link>
             <Link to="/polyline">Polyline</Link>
+            <Link to="/polygon">Polygon</Link>
             <Link to="/face">Face</Link>
         </nav>
         <Route exact path="/" component={Home}/>
@@ -35,6 +37,7 @@ const App = () => (
         <Route path="/circle" component={Circle}/>
         <Route path="/ellipse" component={Ellipse}/>
         <Route path="/polyline" component={Polyline}/>
+        <Route path="/polygon" component={Polygon}/>
         <Route path="/face" component={Face}/>
     </BrowserRouter>
 );
