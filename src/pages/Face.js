@@ -7,19 +7,27 @@ const Face = () => (
     <Layout>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
             <g className="face-head">
-                <ellipse fill="#ffcc99" cx="50" cy="50" rx="40" ry="40"/>
+                <path fill="#ffcc99" d="M 50 15
+                    C 50 15, 30 15, 25 27.5
+                    Q 17.5 45, 25 60
+                    C 25 60, 32.5 75, 45 80
+                    Q 50 82, 55 80
+                    C 67.5 75, 75 60, 75 60
+                    Q 82.5 45, 75 27.5
+                    C 70 15, 50 15, 50 15"
+                />
                 <g className="face-eyes">
                     <g className="face-sclerae">
-                        <ellipse fill="#fff" cx="30" cy="45" rx="10" ry="5"/>
-                        <ellipse fill="#fff" cx="70" cy="45" rx="10" ry="5"/>
+                        <ellipse fill="#fff" cx="35" cy="45" rx="8" ry="4"/>
+                        <ellipse fill="#fff" cx="65" cy="45" rx="8" ry="4"/>
                     </g>
                     <g className="face-irises">
-                        <ellipse fill="#3366ff" cx="30" cy="45" rx="5" ry="5"/>
-                        <ellipse fill="#3366ff" cx="70" cy="45" rx="5" ry="5"/>
+                        <ellipse fill="#3366ff" cx="35" cy="45" rx="4" ry="4"/>
+                        <ellipse fill="#3366ff" cx="65" cy="45" rx="4" ry="4"/>
                     </g>
                     <g className="face-pupils">
-                        <ellipse fill="#000" cx="30" cy="45" rx="2" ry="2"/>
-                        <ellipse fill="#000" cx="70" cy="45" rx="2" ry="2"/>
+                        <ellipse fill="#000" cx="35" cy="45" rx="2" ry="2"/>
+                        <ellipse fill="#000" cx="65" cy="45" rx="2" ry="2"/>
                     </g>
                 </g>
                 <g className="face-mouth">
