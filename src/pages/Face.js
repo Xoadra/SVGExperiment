@@ -16,18 +16,22 @@ const Face = () => (
                     Q 82.5 45, 75 27.5
                     C 70 15, 50 15, 50 15"
                 />
-                <g className="face-eyes">
+                <g className="face-eyes" clipPath="url(#face-eyelids)">
+                    <clipPath id="face-eyelids">
+                        <ellipse rx="7.5" ry="4" cx="36" cy="45"/>
+                        <ellipse rx="7.5" ry="4" cx="64" cy="45"/>
+                    </clipPath>
                     <g className="face-sclerae">
-                        <ellipse fill="#fff" cx="35" cy="45" rx="8" ry="4"/>
-                        <ellipse fill="#fff" cx="65" cy="45" rx="8" ry="4"/>
+                        <ellipse fill="#fff" rx="7.5" ry="7.5" cx="36" cy="45"/>
+                        <ellipse fill="#fff" rx="7.5" ry="7.5" cx="64" cy="45"/>
                     </g>
                     <g className="face-irises">
-                        <ellipse fill="#3366ff" cx="35" cy="45" rx="4" ry="4"/>
-                        <ellipse fill="#3366ff" cx="65" cy="45" rx="4" ry="4"/>
+                        <ellipse fill="#3366ff" rx="3.5" ry="3.5" cx="36" cy="45"/>
+                        <ellipse fill="#3366ff" rx="3.5" ry="3.5" cx="64" cy="45"/>
                     </g>
                     <g className="face-pupils">
-                        <ellipse fill="#000" cx="35" cy="45" rx="2" ry="2"/>
-                        <ellipse fill="#000" cx="65" cy="45" rx="2" ry="2"/>
+                        <ellipse fill="#000" rx="1" ry="1" cx="36" cy="45"/>
+                        <ellipse fill="#000" rx="1" ry="1" cx="64" cy="45"/>
                     </g>
                 </g>
                 <g className="face-mouth">
