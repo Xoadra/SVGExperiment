@@ -18,8 +18,18 @@ const Face = () => (
                 />
                 <g className="face-eyes" clipPath="url(#face-eyelids)">
                     <clipPath id="face-eyelids">
-                        <ellipse rx="7.5" ry="4" cx="36" cy="45"/>
-                        <ellipse rx="7.5" ry="4" cx="64" cy="45"/>
+                        <path d="M 36 41
+                            C 32 41, 30 42.5, 28.5 45
+                            C 28 44, 30 49, 36 49
+                            C 38 49, 41 48, 43.5 46
+                            C 40 42, 37.5 41, 36 41"
+                        />
+                        <path d="M 64 41
+                            C 68 41, 70 42.5, 71.5 45
+                            C 72 44, 70 49, 64 49
+                            C 62 49, 59 48, 56.5 46
+                            C 60 42, 62.5 41, 64 41"
+                        />
                     </clipPath>
                     <g className="face-sclerae">
                         <ellipse fill="#fff" rx="7.5" ry="7.5" cx="36" cy="45"/>
