@@ -44,6 +44,20 @@ const Face = () => (
                         <ellipse fill="#000" rx="1" ry="1" cx="64" cy="45"/>
                     </g>
                 </g>
+                <g className="face-nose">
+                    <g className="face-nostrils">
+                        <path fill="#000" d="M 47 60
+                            C 47 60, 46 60, 45.5 60.5
+                            C 45 61, 48 61.5, 48 61
+                            C 47.5 60, 47 60, 47 60"
+                        />
+                        <path fill="#000" d="M 53 60
+                            C 53 60, 54 60, 54.5 60.5
+                            C 55 61, 52 61.5, 52 61
+                            C 52.5 60, 53 60, 53 60"
+                        />
+                    </g>
+                </g>
                 <g className="face-mouth">
                     <path fill="#000" stroke="#e08d6f" d="M 50 67.5
                         A 20 20, 0 0 0, 40 70
