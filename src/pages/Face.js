@@ -4,13 +4,14 @@ import Layout from '../components/Layout';
 
 
 const Face = () => {
-    const skinColor = '#ffcc99';
+    const plainSkinColor = '#ffcc99';
+    const shadowSkinColor = '#d09e6f';
     return (
         <Layout>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
                 <g className="face-head">
                     <g className="face-ears">
-                        <path fill={skinColor} d="M 23 45
+                        <path fill={plainSkinColor} d="M 23 45
                             C 23 45, 22 40, 20 40
                             C 17.5 40, 19 47.5, 19 47.5
                             C 19 48, 20 52.5, 20 52.5
@@ -18,7 +19,7 @@ const Face = () => {
                             C 25 57.5, 26 55, 26 55
                             V 45"
                         />
-                        <path fill={skinColor} d="M 77 45
+                        <path fill={plainSkinColor} d="M 77 45
                             C 77 45, 78 40, 80 40
                             C 82.5 40, 81 47.5, 81 47.5
                             C 81 48, 80 52.5, 80 52.5
@@ -26,20 +27,20 @@ const Face = () => {
                             C 75 57.5, 74 55, 74 55
                             V 45"
                         />
-                        <path fill="#d09e6f" d="M 22.5 46
+                        <path fill={shadowSkinColor} d="M 22.5 46
                             C 22.5 46, 21 41, 20 41
                             C 18.25 41, 20 50, 20 50
                             Q 19.5 44, 21 44
                             Q 21.5 44, 22.5 46"
                         />
-                        <path fill="#d09e6f" d="M 77.5 46
+                        <path fill={shadowSkinColor} d="M 77.5 46
                             C 77.5 46, 79 41, 80 41
                             C 81.75 41, 80 50, 80 50
                             Q 80.5 44, 79 44
                             Q 78.5 44, 77.5 46"
                         />
                     </g>
-                    <path fill={skinColor} d="M 50 15
+                    <path fill={plainSkinColor} d="M 50 15
                         C 50 15, 30 15, 25 27.5
                         Q 22.5 35, 22.5 42.5
                         Q 22.5 47.5, 25 55
@@ -94,7 +95,7 @@ const Face = () => {
                                 C 52.5 50, 52.5 45, 52.5 45
                                 C 52.5 42.5, 50 42.5, 50 42.5"
                             />
-                            <path fill={skinColor} d="M 50 42.5
+                            <path fill={plainSkinColor} d="M 50 42.5
                                 C 50 42.5, 47.5 42.5, 47.5 45
                                 C 47.5 45, 47.5 50, 46.5 55
                                 Q 46 56.5, 45.5 57
@@ -110,7 +111,7 @@ const Face = () => {
                                 C 52.5 50, 52.5 45, 52.5 45
                                 C 52.5 42.5, 50 42.5, 50 42.5"
                             />
-                            <path fill="#d09e6f" d="M 50 60.5
+                            <path fill={shadowSkinColor} d="M 50 60.5
                                 C 49 60.5, 48 60, 48 60
                                 C 46.5 59, 44 60, 45 61
                                 Q 46 61.5, 47.5 61.5
