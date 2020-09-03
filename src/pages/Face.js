@@ -9,6 +9,24 @@ const Face = () => {
         <Layout>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
                 <g className="face-head">
+                    <g className="face-ears">
+                        <path fill={skinColor} d="M 23 45
+                            C 23 45, 22 40, 20 40
+                            C 17.5 40, 19 47.5, 19 47.5
+                            C 19 48, 20 52.5, 20 52.5
+                            C 20 52.5, 21 57.5, 23.5 57.5
+                            C 25 57.5, 26 55, 26 55
+                            V 45"
+                        />
+                        <path fill={skinColor} d="M 77 45
+                            C 77 45, 78 40, 80 40
+                            C 82.5 40, 81 47.5, 81 47.5
+                            C 81 48, 80 52.5, 80 52.5
+                            C 80 52.5, 79 57.5, 76.5 57.5
+                            C 75 57.5, 74 55, 74 55
+                            V 45"
+                        />
+                    </g>
                     <path fill={skinColor} d="M 50 15
                         C 50 15, 30 15, 25 27.5
                         Q 22.5 35, 22.5 42.5
